@@ -24,6 +24,8 @@ int main() {
 	azul.prox = NULL;
 	inserir_lista(&lista, &azul);
 
+	remover_elem(&lista, 2);
+
 	imprime(lista);
 	return 0;
 }

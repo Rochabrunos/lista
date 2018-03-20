@@ -16,3 +16,4 @@ typedef struct caixa Caixinha;
 void criar_lista (Caixinha **lista);
 void inserir_lista(Caixinha **lista, Caixinha *elemento);
 void imprime(Caixinha *lista);
+void remover_elem(Caixinha **lista, int value);
